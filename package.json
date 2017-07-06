@@ -24,5 +24,11 @@
   },
   "devDependencies": {
     "npm-run-all": "^4.0.2"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,json,css}": [
+      "prettier --single-quote --write",
+      "git add"
+    ]
   }
 }
