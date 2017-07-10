@@ -17,9 +17,12 @@ class Main extends Component {
       <Router>
         <div className="Main">
           <div className="mainContent">
-            <Header navigation={navigation.headerMenu} />
+            <Header
+              navigationLeft={navigation.headerMenuLeft}
+              navigationRight={navigation.headerMenuRight}
+            />
             <Switch>
-              <Route path="/home" component={Home} />
+              <Route path="/" component={Home} />
             </Switch>
           </div>
         </div>

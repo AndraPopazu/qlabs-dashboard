@@ -1,5 +1,5 @@
 export const navigation = {
-  headerMenu: [
+  headerMenuLeft: [
     {
       name: 'About',
       linkTo: '/about'
@@ -15,6 +15,16 @@ export const navigation = {
     {
       name: 'Contact',
       linkTo: '/about'
+    }
+  ],
+  headerMenuRight: [
+    {
+      name: 'Sign Up',
+      linkTo: '/signUp'
+    },
+    {
+      name: 'Login',
+      linkTo: '/login'
     }
   ]
 };
